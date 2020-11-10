@@ -28,8 +28,7 @@ $(function(){
     });
 });
 $(function() {
-	$('.animate').scrolla({
-		mobile: true, //모바일버전시 활성화
+	$('.animate').scrolla({//모바일버전시 활성화
 		once: true //스크롤시 딱 한번만 하고싶을땐 true
 	});    
       }); 

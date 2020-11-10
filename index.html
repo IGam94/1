@@ -28,7 +28,7 @@
       </nav> 
      </header>
      
-     <section class="visual">
+     <section class="visual" id="me">
        <div class="img">
          <img src="img/main_visual.jpg">
          <span class="mask a"></span>
@@ -169,9 +169,10 @@
      </footer>
   </div> 
   <script>
-    $(document).ready(function() {
+window.onload=function(){
       $('#loading').hide();
-    });
+      document.getElementById('me').classList.add('motion');
+    };
   </script>
 </body>
 </html>
